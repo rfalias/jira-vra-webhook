@@ -1,0 +1,56 @@
+[vra]
+host = VRAserver.domain.com
+tenant = VRATenant
+username = VRAUser
+password = vraPassword
+token = TOKEN
+debug = True
+
+[Oracle Linux 7]
+version = 22
+
+[AMQ Linux]
+version = AMQ8
+
+
+[5x]
+version = 5
+
+
+# VRA is the Jira project key
+# Map required jira fields to their 
+# POST request name
+[VRA]
+hostname = customfield_16633
+location = customfield_16430
+size = customfield_21032
+os = customfield_21033
+tags = customfield_16650
+ispcinetwork = customfield_18448
+mountpointrequired = customfield_18250
+mountdescription = customfield_18531
+nfsmountpoint = customfield_18251
+isjavainstall = customfield_21034
+
+
+
+#Issue type AMQ
+[AMQ]
+hostname = customfield_21037
+location = customfield_21039
+size = customfield_21032
+os = customfield_21033
+domain = customfield_21038
+tags = customfield_16650
+ispcinetwork = customfield_18448
+mountpointrequired = customfield_18250
+mountdescription = customfield_18531
+nfsmountpoint = customfield_18251
+isjavainstall = customfield_21034
+vlan = customfield_21039
+deploymentcount = customfield_21040
+reason = customfield_21036
+
+
+[Linux-OS]
+hostname = customfield_18930

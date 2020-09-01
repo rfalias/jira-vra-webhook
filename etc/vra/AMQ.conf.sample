@@ -1,0 +1,9 @@
+[AMQ]
+location = DC
+size = Small
+os = Linux
+tags = AMQ
+ispcinetwork = No
+mountpointrequired = No
+catalogname = AMQ Linux
+vlan = prod_vlan
